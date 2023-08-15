@@ -1,0 +1,25 @@
+<html>
+     <head>
+	 <title> armstrong number or not.</title>
+	 <script>
+              sum = 0;
+              number = prompt('Enter a three-digit positive integer: ');
+              temp = number;// create a temporary variable
+              while (temp > 0) {
+                 let remainder = temp % 10;// finding the one's digit
+				 sum += remainder * remainder * remainder;
+                 temp = parseInt(temp / 10); // removing last digit from the number // convert float into integer
+                 }
+				  
+              if(sum == number) {
+                    document.write(`${number} is an Armstrong number`);
+                   }
+              else {
+                   document.write(`${number} is not an Armstrong number.`);
+                    }
+	 </script>
+	 </head>
+	 <body>
+	 </body>
+
+</html>

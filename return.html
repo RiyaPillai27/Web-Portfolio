@@ -1,0 +1,32 @@
+<html>
+     <head>
+	 <title>return statement</title>
+	 <script>
+	 /*
+		Return statement:
+		if there is need to pass value from function definition
+		to function call, the return statement is used
+		
+		return statement can return one value at a time
+		*/
+	  
+	  function totalmarks(m1,m2,m3){
+	       t=m1+m2+m3;
+		   return t;
+		   }
+		   <!-- r=totalmarks(21,45,90); -->
+		   <!-- r=totalmarks(a,b,c); -->
+		   
+		   a=parseInt(prompt("enter 1st number"));
+	       b=parseInt(prompt("enter 2nd number"));
+	       c=parseInt(prompt("enter 3rd number"));
+		   r=totalmarks(a,b,c);
+		   per=r/3;
+		   document.write("percentage:"+per);
+		   
+	 </script>
+	 </head>
+	 <body>
+	 </body>
+
+</html>

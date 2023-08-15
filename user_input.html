@@ -1,0 +1,31 @@
+<html>
+    <head>
+	    <title>HOW TO TAKE USER INPUT</title>
+         <script>
+		  /* user input can be taken in two ways:
+		    1)HTML form
+			2)promt()- prompt functipn accept input 
+			in the form of string.
+          so, as per requirement , if you need to convert then
+          into integer or float		  
+          
+		  string->interger=>parseInt()
+		  string->float=>parseFloat()
+		*/
+		  var x,y,z,a,b;
+		  x=prompt("enter first number:");
+		  y=prompt("enter second number:");
+		  document.write(x+"<br>");
+		  document.write(y+"<br>");
+		  document.write(typeof(x)+"<br>");
+		  a=parseInt(x);
+		  b=parseInt(y);
+		  z=a+b;
+		  document.write("addition:"+z);
+		 
+		 </script>   		
+	</head>
+	<body>
+	    
+	</body>
+</html>

@@ -1,0 +1,45 @@
+<html>
+     <head>
+	 <title>nested if else</title>
+	 <script>
+	 /* need: if the decision is based on two or more conditions
+then there is need of nested if else
+      syntax:
+
+          if(condition1)
+		               {if(condition2)
+					                 {if body}
+									 else
+									 {else body}}
+else{if(condition3){if body}else{else body}}		  
+	 */
+	 
+	 // greatest no. out of three numbers:
+	 var x,y,z;
+	 x=parseInt(prompt("enter first number"));
+	 y=parseInt(prompt("enter second number"));
+	 z=parseInt(prompt("enter third number"));
+	     if(x>y){
+		        if(x>z){
+				  document.write(x+": is greater");}
+				  else{
+				  document.write(z+": is greater");}
+				       }
+				else{
+                     if(y>z){
+                     document.write(y+": is greater");}
+                     else{
+                     document.write(z+": is greater");}
+                     }	
+                   						
+	 
+	 </script>
+	 </head>
+	 <body>
+	 </body>
+
+
+
+
+
+</html>

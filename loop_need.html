@@ -1,0 +1,55 @@
+<html>
+     <head>
+	 <title>loop control instruction</title>
+	 <script>
+	 /* Disadvantage of code repetation:
+	 1)length of program increases due to whivh 
+	 debugging(erroe solving)
+	 become difficult.
+	 2) storage space to store program increses.
+	 3) compiler or interpreter time is wasting in 
+	 cheching same piece of code again and again.
+	 
+	 need of loop:
+	 to overcome disadvantage of code repeatition,
+	 we need loop control instruction or statement.
+		
+	what is loop?
+	-------------
+		the stement or instruction which allows us to write
+		code once and repeat it finite or infinite no. of times.
+        types of loop:
+		1)while loop
+		2)for loop
+		3) do while loop
+		
+		while loop
+		==========
+		syntax:
+			initialization
+			while (condition){
+				while code;
+				increment/decrement;
+				}
+        working:
+		==========
+						initialization
+						       |
+							   |        False
+					-------->condition ------> out of the loop
+					|		   |
+					|		   | True
+					|		   |
+				inc/dec<------body
+	 
+	 */
+	 var i;
+	 i=1;        //initilization
+	 while(i<=5){
+	             document.write("hello world<br>");
+	             i++}    //i=i+1 increment 
+	 </script>
+	 </head>
+	 <body>
+	 </body>
+</html>
