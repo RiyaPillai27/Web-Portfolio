@@ -1,0 +1,101 @@
+<html>
+     <head>
+	 <title>Land of Boxes</title>
+	 <style> body{
+	              background-color:#ffffb3;
+	             }
+			table{
+			      width:70%;
+			      height:90%;
+			      font-size:20px;
+				  margin:auto;
+				  }
+		    table input[type="submit"]{
+			                           background-color:#66ff66;
+									   width:30%;
+									   height:100%;
+									   font-size:20px;
+			                           }       
+	 </style>
+	 
+	 </head>
+	 
+	 <body>
+	   <form action="" method="GET" target="_blank" enctype="multipart/form data">
+	      <h1 align="center">Land of Boxes</h1>
+	      <table border="1">
+		         <tr>
+	                <td colspan="2"><h4>PURCHASER DETAILS</h4></td>	
+	             </tr>
+				 <tr> 
+				    <td>Name:</td>
+					<td><input type="text" name="customer name"/></td>
+				 </tr>	
+				  <tr> 
+				    <td>Address</td>
+					<td><textarea name="address" cols="19" rows="4"></textarea></td>
+				 </tr>	 
+				 <tr> 
+				    <td>Telephone Number:</td>
+					<td><input type="number" name="tel"/></td>
+				 </tr>	
+				 <tr> 
+				    <td>EmailID</td>
+					<td><input type="email" name="mailid"/></td>
+				 </tr>	
+                 <tr> 
+				    <td><h4>PRODUCT DETAILS WITH PRICE</h4></td>
+					<td><select name="product" multiple>
+					    <option value="1">EconoBox:Cost R10</option>
+						<option value="2">The Standard Box:Cost R10</option>
+						<option value="3">The Premium Box:Cost R15</option>
+						<option value="4"> The Deluxe Box:Cost R20</option>
+						<option value="5"> The Super Deluxe Box:Cost R30</option>
+						
+						</select>
+						</td>
+				 </tr>
+                 <tr> 
+				    <td>Product Name</td>
+					<td><input type="text" name="product name"/></td>
+				 </tr>
+                 <tr> 
+				    <td>Product Number</td>
+					<td><input type="number" name="product number"/></td>
+				 </tr>
+                 <tr> 
+				    <td>Product Quantity</td>
+					<td><input type="number" name="quantity"/></td>
+				 </tr>
+				  <tr> 
+				    <td>Payment Method</td>
+					<td><select name="payment">
+					    <option value="creditcard">Credit Card</option>
+						<option value="debitcard">MasterCard</option>
+						<option value="netbanking">Visa</option>
+						<option value="netbanking">American Express</option>
+			        </td>
+					</tr>
+				 <tr>
+                    <td>Card Number</td>
+					<td><input type="number" name="carddetails"/></td>	
+				 </tr>
+				 <tr>
+				   <td>Expiry Date</td>
+		   		   <td><input type="date" name="expirydate"/></td>
+	   		     </tr>
+			      <tr> 
+				    <td>Billing Address</td>
+					<td><textarea name="billing address" cols="19" rows="4"/></textarea></td>
+				 </tr>
+				 <tr> 
+				    <td>Delivery Address</td>
+					<td><textarea name="delivery address" cols="19" rows="4"/></textarea></td>
+				 </tr>	 
+                 <td colspan="2" align="center">
+				 <input type="submit" name="send" value="submit"/>
+                 </td>						 
+	      </table>
+	  </form>
+	 </body>
+</html>

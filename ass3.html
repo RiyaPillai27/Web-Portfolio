@@ -1,0 +1,85 @@
+<html>
+    <head>
+	    <title>CREATE LOGIN PAGE</title>
+         <style>   
+         body{
+		      background-image:url('img/backg.jpeg');
+			  background-repeat:no-repeat;
+			  background-size:100%;
+		      align:center;
+			  
+			 }
+         .logincontainer{
+		                 background-color:#ccf2ff;
+                         width:30%;
+						 height:45%;
+						 border:5px solid gray;
+						 text-align:center;
+						 margin:auto;
+						 box-sizing:border-box;}
+        .lp{
+		    padding:20px;
+            height:70px;
+            width:400px;
+		    margin:auto;
+		    font-size:25px;
+		    line-height:0.7;
+			display:inline-block;
+            box-sizing:border-box;			   
+		   }
+	    .lp input[type="submit"]
+			                    { cursor: pointer;
+			                      width:100%;
+			                      height:150%;
+			                      background-color: #007BFF;
+			                      font-size:22px;
+								}    
+        footer {
+		        color:blue;
+			    background-color:white;
+			    display:inline-block;
+		        cursor: pointer;
+		        font-size:20px;
+			   }
+        .f {
+		    position:absolute;
+		    top:300px;
+		    left:750px; 
+		    text-decoration:underline;
+		   }
+        .s {
+		    position:absolute;
+			top:300px; 
+			right:750px;
+		    text-decoration:underline;
+			
+		   } 
+		 .s:hover{color:red;}
+         .f:hover{color:red;}
+         	 
+         </style>			  
+		 
+	</head>
+	<body>
+	<div class="logincontainer">
+	    <h1>Login</h2>
+		   <form action="" method="POST">
+		     <div class="lp">
+		      <label for="username">Username:</label>
+		      <input type="text" name="username" id="username"/>
+			 </div>
+		     <div class="lp">
+		      <label for="password">Password:</label>
+		      <input type="password" name="enter your password" id="password"/>
+			 </div>
+		     <div class="lp">
+		      <input type="submit" name="send" value="Login"/>
+			 </div>	
+			 <footer><p class="f">Forget Password</p>
+			         <p class="s">Sign up</p>
+			 </footer>
+			 
+		   </form> 
+	</div>	
+	</body>
+</html>

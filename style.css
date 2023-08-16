@@ -1,0 +1,206 @@
+/* EXTERNAL CSS STYLESHEET
+
+first--
+h1 {color:red;}
+p{ color:green;}*/
+
+/*EXTERNAL CSS TYPES 
+
+1) ID SELECTOR--- 
+#head1{color:purple;}
+#b1{color:tomato;}
+#head2{color:gray;}
+
+2) CLASS SELECTOR--
+.c1{color:blue;}
+.c2{color:red;}
+
+3) COMBINATORS SELECTORS--
+
+div p{color:brown;}
+div>p{color:purple;}
+div+p{color:blue;}
+div~p{color:orange;}
+
+4) PSEUDO CLASS SELECTOR 
+
+div{background-color:pink;}
+a:link{color:purple;}
+a:hover{color:aqua;}
+#btn{background-color:lightgreen;}
+#btn:hover{color:blue;}
+
+5) UNIVERSAL SELECTOR 
+*{font-style:italic;}
+
+6) GROUP SELECTOR 
+
+h1,p{color:blue;}
+h2{color:red;}
+
+& ATTRIBUTE SELECTOR 
+
+[type]{background-color:yellow;
+color:blue;}
+
+[type="text"]{ background-color:pink;}
+
+[type="submit"]{background-color:aqua;}
+
+___________PROPERTY___________07/08/2023
+
+1)COLOR PROPERTY
+
+ p{color:red;}
+ p{color:rgb(225,255,255);}
+ p{color:rgp(0,0,0);}
+ p{color:rgp(190,50,40)}
+ p{color:#ff6666}
+ 
+ 2)TEXT PROPERTY
+ 
+  h1{text-align:center;} 
+ p{ text-align:justify;left/right/justify/center
+ text-decoration:none; underline/line-through/overline/none
+	text-transform:capitalize;lowercase/uppercase/capitalize
+	text-indent:100px;  
+	text-height:25px; 
+	 word-spacing:10px; 
+	 letter-spacing:3px; 
+	 font-weight:bold;  bold/normal 
+	font-style:italic;} italic/ normal 
+a{text-decoration:none;}	 
+ p{color:#ff6666} 
+
+3)BOX PROPERTY  
+ <---the layout in which element width and height are mentioned 
+ in pixcels is called as static layout 
+
+ if width is given in px , then if we reduce the screen,  
+ the horizontal scroll bar appears, for user horizontal  
+ scrolling is tedious, its a bad user experience 
+
+ the layout in which element width and height are mentioned 
+in percentage is called as dynamic layout--> 
+
+ p{width:70%; 
+ height:500px;} 
+
+ p{width:400px; 
+ height:200px;
+ border-style:ridge; solid/dotted/dashed/ridge
+ border-color:#cc99ff;
+ border-width:4px;
+ border-radius:15px;
+ border-bottom-style:solid;
+ border-right-style:dashed;
+ border-bottom-right-radius:20px;
+ border-right-color:green;
+ border-bottom-color:red;}
+ 
+ I)PADDING & MARGIN
+ 
+ p{width:400px; 
+ height:200px;
+ border-style:ridge; 
+ border-color:#cc99ff;
+ border-width:4px;
+ padding:10px;
+ padding:5px 15px 5px 10px; top right bottom left
+ padding:10px 20px; similar to 10px 20px 10px 20px
+ padding:10px 15px 20px; top(left-right)bottom
+ box-sizing:border-box;
+ margin:15px;
+ margin-top:20px;}
+  
+II)DISPLAY
+  
+ h1{display:inline;
+ border-style:solid;
+ width:400px;}  this width tag not work not change
+ i{display:block;}
+ 
+ h1{display:inline-block;
+ border-style:solid;
+ width:500px;}
+ i{display:block;}
+ 
+III)BOX SHADOW
+ 
+ .box-shadow{
+	 width:200px;
+	 height:150px;
+	 border-style:solid;
+	 margin:200px auto;
+	 text-align:center;
+	 padding-top:50px;
+	 box-sizing:border-box;
+	 background-color:black;
+	 color:aqua;
+     box-shadow:10px 10px 5px 10px #ee82ee;
+ }
+ 
+IV)TRANSFORM 
+ 
+ .box-shadow:hover{transform:translateX(200px); 
+                   transform:translateY(-200px); 
+				   transform:translate(200px,200px); 
+				   transform:scale(2); 
+				   transform:rotate(45deg);
+				   transition-property:transform;
+				   transition-duration:4s;
+				   transition-delay:2s;}
+				   
+V)TEXT SHADOW
+
+h1{font-size:100px;
+text-shadow:10px 10px 8px #33adff;}	
+
+VI)BACKGROUND IMAGE 
+
+body{background-image:url('img/riyaimg.jpg');
+     background-repeat:no-repeat;   /repeat-x/repeat-y/no-repeat/
+	 background-size:100%;
+	 background-attachment:fixed;}  /scroll/fixed/ 
+	   
+4) POSITION PROPERTY 
+	#fourth{position:fixed;
+	        left:20px;
+			bottom:20px;
+	color:red;}
+	#fourth{position:relative;
+	        right:20px;
+			bottom:70px;
+		    color:red;}
+	#fourth{position:absolute;
+	        top:20px;
+			bottom:70px;
+		    color:red;}		
+	#fourth{position:static;
+	        top:20px;
+		    color:red;}	
+  #whatsapp{position:fixed;
+            right:20px;
+            bottom:20px;}			
+  #tel{position:fixed;
+       right:20px;
+  bottom:60px;}	
+ 
+ .box1{border-style:solid;
+       width:60%;
+       float:left;
+ }
+.box2{border-style:solid;
+      width:30%;
+float:right;}
+.box3{border-style:solid;
+clear:both;} 
+
+.card{ border-style:solid;
+       width:24%;
+	   height:300;
+	   box-sizing:border-box;
+	   float:left;
+	   margin-right:10px;
+       text-align:center;}*/
+ 
